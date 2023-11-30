@@ -26,7 +26,7 @@ func main() {
 
 	// Capture packets until stopped
 	for packet := range packetSource.Packets() {
-		// Process the captured packet
+		// Print the captured packet
 		fmt.Println(packet)
 	}
 }
